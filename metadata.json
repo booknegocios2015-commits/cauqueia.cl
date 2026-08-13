@@ -1,0 +1,6 @@
+{
+  "name": "CAUQUE.IA - Sistema Digital de Ventas e IA",
+  "description": "Infraestructura tecnológica que integra Web Inteligente, WhatsApp, Inteligencia Artificial y CRM para captar y cerrar clientes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
