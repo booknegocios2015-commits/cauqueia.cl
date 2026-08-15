@@ -1,17 +1,18 @@
 import React from 'react';
 import { ArrowRight, ChevronDown, Eye, Target, MessageSquare, UserCheck } from 'lucide-react';
 import { getWhatsAppUrl } from '../utils/whatsapp';
+import { HeroCanvasBackground } from '../components/HeroCanvasBackground';
 
 export const HeroSection: React.FC = () => {
   return (
-    <section id="sistemas" className="relative pt-32 pb-20 bg-[#0A0F1E] text-white overflow-hidden border-b border-slate-800">
-      {/* Subtle ambient light radial blur */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-[#3D5AFE]/15 rounded-full blur-[140px] pointer-events-none"></div>
+    <section id="sistemas" className="relative pt-32 pb-20 bg-[#070D1F] text-white overflow-hidden border-b border-slate-800">
+      {/* Interactive & Generative HTML5 Canvas Halo / Caustic Wave Lines */}
+      <HeroCanvasBackground />
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pointer-events-none">
         
         {/* Status Badge */}
-        <div className="flex justify-center mb-6">
+        <div className="flex justify-center mb-6 pointer-events-auto">
           <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full border border-[#00F0FF]/30 bg-[#00F0FF]/10 text-[#00F0FF] text-xs font-mono font-bold tracking-wider uppercase">
             <span className="w-2 h-2 rounded-full bg-[#00F0FF] animate-pulse"></span>
             <span>SISTEMAS DIGITALES DE CAPTACIÓN & VENTAS</span>
@@ -19,7 +20,7 @@ export const HeroSection: React.FC = () => {
         </div>
 
         {/* H1 Headline */}
-        <div className="text-center max-w-4xl mx-auto mb-6 space-y-4">
+        <div className="text-center max-w-4xl mx-auto mb-6 space-y-4 pointer-events-auto">
           <h1 className="plus-jakarta text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.15]">
             Construimos sistemas para que tu negocio sea{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00F0FF] via-[#38BDF8] to-[#3D5AFE]">
@@ -33,7 +34,7 @@ export const HeroSection: React.FC = () => {
         </div>
 
         {/* CTAs */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 pointer-events-auto">
           <a
             href={getWhatsAppUrl('Hola CAUQUE.IA, quiero evaluar el mejor sistema de captación para mi negocio.')}
             target="_blank"
@@ -54,7 +55,7 @@ export const HeroSection: React.FC = () => {
         </div>
 
         {/* Visual Central Pipeline - 5 Second Understanding */}
-        <div className="bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8 backdrop-blur-md shadow-2xl max-w-4xl mx-auto">
+        <div className="bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8 backdrop-blur-md shadow-2xl max-w-4xl mx-auto pointer-events-auto">
           
           <div className="text-center mb-6">
             <span className="inline-block px-4 py-1.5 rounded-md bg-[#3D5AFE]/20 border border-[#3D5AFE]/40 font-mono text-xs font-bold text-[#00F0FF]">
